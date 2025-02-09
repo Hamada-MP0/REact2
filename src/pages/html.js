@@ -3,18 +3,17 @@
 
 
 
-
+import Header from '../commp/Header'
+import Footer from '../commp/footer'
 const Html = () => {
     return (
       <>
-      <header className="hide-when-mobile">
-        <h1>c4a.fgghfjghfgjfgjgfhj **</h1>
 
-      </header>
-  
-  
-  
-
+  <Header/>
+  <main>
+    HTML Hello
+  </main>
+<Footer/>
 
 
     </>
